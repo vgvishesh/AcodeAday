@@ -32,7 +32,7 @@ class transaction
 class SortbyValue implements Comparator<transaction>
 {
     // Used for sorting in ascending order of
-    // roll number
+    // roll Number
     public int compare(transaction a, transaction b)
     {
         return a.value - b.value;
