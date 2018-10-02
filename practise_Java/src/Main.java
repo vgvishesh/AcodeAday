@@ -1,7 +1,4 @@
-import com.Bounce.Split;
-import com.lendingKart.AndBit;
-import com.lendingKart.Number;
-import com.sun.tools.corba.se.idl.constExpr.And;
+import com.lendingKart.Questions;
 
 import java.io.IOException;
 
@@ -26,12 +23,12 @@ public class Main {
 
 //        Number N = new Number();
 //        N.Run();
-//        AndBit AB = new AndBit();
+//        Questions AB = new Questions();
 //        int [] mat = {1,3,5,500,6,9,3,8,9,75};
 //        int [] result = AB.solve(mat);
 //        System.out.println(result);
 
-        System.out.println(AndBit.number_creation(1,4,4));
+        System.out.println(Questions.number_creation(1,4,4));
     }
 }
 
