@@ -1,4 +1,6 @@
 .DS_Store
 .idea/
-sepcircuit.iml
+*.iml
 */out
+*/target
+*.zip
